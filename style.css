@@ -58,7 +58,7 @@ img {
   background: rgba(0, 0, 0, 0.45);
   color: #fff;
   height: 75px;
-  width: 100%;
+  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -149,6 +149,10 @@ img {
 }
 
 /* Section: Services */
+
+/* main {
+  width: 90vw;
+} */
 .services {
   margin: 80px 0;
 }
@@ -180,6 +184,10 @@ img {
   width: 95%;
   margin: 50px 0;
   line-height: 1.6;
+}
+
+.card a {
+  color: #000;
 }
 
 .title {

@@ -16,74 +16,84 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="container">
-         <h1 class="logo">LOGO HERE</h1>
-        
+        <article class="container">
          <nav class="navigation">
             <div class="menu-icon"><i class="fas fa-ellipsis-h fa-2x"></i></div>
             <ul>
+                <li class="logo"><a href="#">LOGO HERE</a></li>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">BLOG</a></li>
                 <li><a href="#">ABOUT US</a></li>
             </ul>
          </nav>
-        </div>
+        </article>
          
         
-        <div class="header-content">
-            <h1>BE CREATIVE!</h1>
+        <article class="header-content">
+            <h1 id="heading">BE CREATIVE!</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quia, ullam eaque voluptatum mollitia suscipit nemo assumenda saepe perspiciatis labore modi aperiam sed. Ipsa nisi, dicta nobis voluptas quisquam praesentium quia deserunt nesciunt ipsum doloremque autem adipisci?</p>
-           
+
            <div class="buttons">
-            <a class="btn btn-light" href="#">LEARN MORE</a>
-            <a class="btn btn-light" ref="#">JOIN US</a>
+             <button id="learn-more"  class="btn btn-light" aria-labelledby="learn-more heading">
+               <a href="#">LEARN MORE</a>
+             </button>
+             <button id="join-us" class="btn btn-light"  aria-labelledby="join-us heading">
+               <a ref="#">JOIN US</a>
+             </button>
            </div>
            
-        </div>
+        </article>
     </header>
 
-    <section id="services">
-       <div class="services">
-           <h1>OUR SERVICES</h1>
-       </div>
-      <div class="flex-row">
-        <div class="row">
-            <div class="card">
-                <h2 class="title">TITLE HERE</h2>
-                <p class="notes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?
-                    Eligendi,
-                    eveniet!</p>
-                <a href="#" class="btn btn-dark">LEARN MORE</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card">
-                <h2 class="title">TITLE HERE</h2>
-                <p class="notes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?
-                    Eligendi,
-                    eveniet!</p>
-                <a href="#" class="btn btn-dark">LEARN MORE</a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="card">
-                <h2 class="title">TITLE HERE</h2>
-                <p class="notes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?
-                    Eligendi,
-                    eveniet!</p>
-                <a href="#" class="btn btn-dark">LEARN MORE</a>
-            </div>
-        </div>
-      </div>
-       
-
-    </section>
+    <main>
+        <section id="services">
+            <header class="services">
+                <h1>OUR SERVICES</h1>
+            </header>
+            <article class="flex-row">
+                <div class="row">
+                    <div class="card">
+                        <h2 class="title">TITLE HERE</h2>
+                        <p class="notes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis
+                        at?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?
+                        Eligendi, eveniet!</p>
+                       <button id="card1" class="btn btn-dark">
+                            <a href="#">LEARN MORE</a>
+                       </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <h2 class="title">TITLE HERE</h2>
+                        <p class="notes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis
+                        at?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?
+                        Eligendi, eveniet!</p>
+                        <button id="card2" class="btn btn-dark">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card">
+                        <h2 class="title">TITLE HERE</h2>
+                        <p class="notes">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis
+                        at?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui veniam nemo veritatis at?
+                        Eligendi, eveniet!</p>
+                        <button id="card3" class="btn btn-dark">
+                            <a href="#">LEARN MORE</a>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        
+        </section>
+    </main>
     <footer id="footer">
-        <div class="icon">
+        <nav class="icon">
             <a href=""><i class="fab fa-instagram-square"></i></a>
             <a href=""><i class="fab fa-linkedin"></i></a>
             <a href=""><i class="fab fa-twitter"></i></a>
-        </div>
+        </nav>
         <p>&copy; Copyright 2020</p>
 
     </footer>
